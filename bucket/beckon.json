@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "description": "Cross-platform focus-or-launch app switcher",
+  "homepage": "https://github.com/xom11/beckon",
+  "license": "Apache-2.0 OR MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/xom11/beckon/releases/download/v0.1.0/beckon-0.1.0-x86_64-pc-windows-msvc.zip",
+      "hash": "513ec0e5e45498bc5e302115382860367ee9b126fc622b2bcb46f2b28f13af28"
+    },
+    "arm64": {
+      "url": "https://github.com/xom11/beckon/releases/download/v0.1.0/beckon-0.1.0-aarch64-pc-windows-msvc.zip",
+      "hash": "504cecb2b5acf97b71c5670a619c91ca6601f68776bd117c0c83c6efd2d03b09"
+    }
+  },
+  "bin": "beckon.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/xom11/beckon/releases/download/v$version/beckon-$version-x86_64-pc-windows-msvc.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/xom11/beckon/releases/download/v$version/beckon-$version-aarch64-pc-windows-msvc.zip"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}
