@@ -1,18 +1,18 @@
 {
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Cross-platform focus-or-launch app switcher",
   "homepage": "https://github.com/xom11/beckon",
   "license": "Apache-2.0 OR MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/xom11/beckon/releases/download/v0.9.2/beckon-0.9.2-x86_64-pc-windows-msvc.zip",
-      "hash": "d5091a9f42552d1a63dc899343127f2bb1a0c3d0cfab5e966cd65e9186615e50",
-      "extract_dir": "beckon-0.9.2-x86_64-pc-windows-msvc"
+      "url": "https://github.com/xom11/beckon/releases/download/v0.9.3/beckon-0.9.3-x86_64-pc-windows-msvc.zip",
+      "hash": "71e18cac445bda154b287c6d7b3bfe936eda04f2b9146b80992029f7913382a5",
+      "extract_dir": "beckon-0.9.3-x86_64-pc-windows-msvc"
     },
     "arm64": {
-      "url": "https://github.com/xom11/beckon/releases/download/v0.9.2/beckon-0.9.2-aarch64-pc-windows-msvc.zip",
-      "hash": "4933eee418bb8aed5a70d6db82172ca7c2efa65b7f8a6386d18fec16f393af25",
-      "extract_dir": "beckon-0.9.2-aarch64-pc-windows-msvc"
+      "url": "https://github.com/xom11/beckon/releases/download/v0.9.3/beckon-0.9.3-aarch64-pc-windows-msvc.zip",
+      "hash": "0b96dd94d225b443846cec9c77cb0e9985b256b01e92c1b7025dae3dec0b5ef5",
+      "extract_dir": "beckon-0.9.3-aarch64-pc-windows-msvc"
     }
   },
   "bin": [
