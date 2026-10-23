@@ -1,16 +1,16 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Declarative package management for Windows: winget and scoop from one dotfile, with a real lock file and prune",
   "homepage": "https://github.com/xom11/dotpkg",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/xom11/dotpkg/releases/download/v0.2.1/dotpkg-x86_64-pc-windows-msvc.exe#/dotpkg.exe",
-      "hash": "ca231a4c2a105b43502e2e439f0980f7edcb27e3fb776ab704d56b89066dfeee"
+      "url": "https://github.com/xom11/dotpkg/releases/download/v0.2.2/dotpkg-x86_64-pc-windows-msvc.exe#/dotpkg.exe",
+      "hash": "cc51850edfd69a1c28408f3ccc70a19fc04b0b564d94cac2e2f40ee7ade002e9"
     },
     "arm64": {
-      "url": "https://github.com/xom11/dotpkg/releases/download/v0.2.1/dotpkg-aarch64-pc-windows-msvc.exe#/dotpkg.exe",
-      "hash": "68e0dd3fd0711f5d9d751e60da1ac8a8386e65273ec4a766b8498f6e10c239cf"
+      "url": "https://github.com/xom11/dotpkg/releases/download/v0.2.2/dotpkg-aarch64-pc-windows-msvc.exe#/dotpkg.exe",
+      "hash": "5c67e46788e8f8f7ed70f80b32b72face9829a20bbd0e35b42aa52b67ba1615f"
     }
   },
   "bin": "dotpkg.exe",
